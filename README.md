@@ -1,3 +1,3 @@
-# maxx_mockup
+Mock-up example from Career Lab.
 
 
