@@ -3,48 +3,61 @@
 
 <head>
   <meta charset="utf-8">
+  <!-- Connect to CSS  -->
   <link href="styles/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!-- Connect to Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Text that shows up on tab -->
   <title>Example code for mockup</title>
 </head>
 
 <body>
   <header>
     <img src="images/Company-Logo.png" height=80px width=150px>
-    <h1 style="font-size: 18pt; float: right">Hello, I'm Sam. <span style="display: block;">
-        <h2 style="font-size: 12pt">
+    <!-- These lines show the text on the left hand side, one under the other, without a <br> tag. -->
+    <h1 style="font-family: Helvetica Neue Light; font-size: 18pt; color: #3D3D3D; float: right">Hello, I'm Sam. <span
+        style="display: block;">
+        <h2 style="font-family: Helvetica Neue Light; font-size: 12pt; color: #3D3D3D">
           Web Designer.
       </span></h1>
     </h2>
   </header>
+  <!-- This is the mountain image at the top-center of the webpage. -->
   <div style="width: inherit; height: 300px; overflow: hidden;">
     <img src="images/hero1.jpg" style="margin: -35% 0 0 0;" width="100%" alt="A clear lake in a mountain valley.">
   </div>
-  <h3 style="font-family: 'Roboto Bold', sans-serif; font-size: 30pt; text-align: center;">Portfolio</h3>
+  <h3 style="font-family: Helvetica Neue Bold 28pt; color: #3D3D3D; font-size: 30pt; text-align: center;">Portfolio</h3>
+  <!-- This is the first column in the Bootstrap container. There are three equally spaced columns. -->
   <div class="container">
     <div class="row">
       <div class="col-sm">
+        <!-- This is the thin blue line at the top of the Technoline text. -->
         <hr style="background-color: #0D4B6E; border-color: #0D4B6E; height: 1px;">
-        <h4 style="font-family: 'Roboto Bold', sans-serif; font-size: 20pt; text-align: center;">Technoline</h4>
-        <h5 style="color: rgb(224, 15, 15); font-family: 'Libre Baskerville'; font-style: italic; font-size: 20pt;
+        <h4 style="font-family: Helvetica Neue Bold; font-size: 24pt; color: #3D3D3D; text-align: center;">Technoline
+        </h4>
+        <h5 style="color: rgb(224, 15, 15); font-family: 'Libre Baskerville'; font-style: italic; font-size: 24pt;
         text-align: center;">technoline.com</h5>
+        <!-- This is the thicker blue line under the Technoline text. -->
         <hr style="background-color: #0D4B6E; border-color: #0D4B6E; height: 4px;">
         <img src="images/boat.jpg" height=200 width=350 alt="A boat sits on a lake at dusk.">
       </div>
+      <!-- This is the second column in the container. -->
       <div class="col-sm">
         <hr style="background-color: #0D4B6E; border-color: #0D4B6E; height: 1px;">
-        <h4 style="font-family: 'Roboto Bold', sans-serif; font-size: 20pt; text-align: center;">Majestique</h4>
-        <h5 style="color: rgb(224, 15, 15); font-family: 'Libre Baskerville'; font-style: italic; font-size: 20pt;
+        <h4 style="font-family: Helvetica Neue Bold; font-size: 24pt; color: #3D3D3D; text-align: center;">Majestique
+        </h4>
+        <h5 style="color: rgb(224, 15, 15); font-family: 'Libre Baskerville'; font-style: italic; font-size: 24pt;
         text-align: center;">majestique.com</h5>
         <hr style="background-color: #0D4B6E; border-color: #0D4B6E; height: 4px;">
         <img src="images/path.jpg" height=200 width=350 alt="A dirt path cuts through the middle of a forest.">
       </div>
+      <!-- This is the third column in the container. -->
       <div class="col-sm">
         <hr style="background-color: #0D4B6E; border-color: #0D4B6E; height: 1px;">
-        <h4 style="font-family: 'Roboto Bold', sans-serif; font-size: 20pt; text-align: center;">Silverzim</h4>
-        <h5 style="color: rgb(224, 15, 15); font-family: 'Libre Baskerville'; font-style: italic; font-size: 20pt;
+        <h4 style="font-family: Helvetica Neue Bold; font-size: 24pt; color: #3D3D3D; text-align: center;">Silverzim
+        </h4>
+        <h5 style="color: rgb(224, 15, 15); font-family: 'Libre Baskerville'; font-style: italic; font-size: 24pt;
         text-align: center;">silverzim.com</h5>
         <hr style="background-color: #0D4B6E; border-color: #0D4B6E; height: 4px;">
         <img src="images/mist.jpeg" height=200 width=350 alt="Aerial view of woods with mist overhead.">
@@ -53,6 +66,7 @@
   </div>
   </div>
   </div>
+  <!-- This is the footer and its background color. -->
   <br style="height: 300px">
   <footer style="background-color: #3D3D3D; height: 125px">
     <p>
