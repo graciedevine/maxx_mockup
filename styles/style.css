@@ -1,3 +1,33 @@
-header{
+header {
     padding: 10px 150px 25px 150px;
 }
+
+.project {
+  font-family: 'Roboto Light', sans-serif;
+  font-size: 24pt;
+  color: #3D3D3D;
+  text-align: center;
+}
+
+.urls {
+  color: #BB1F25;
+  font-family: 'Libre-Baskerville', serif;
+  font-style: italic;
+  font-size: 20pt;
+  text-align: center;
+}
+
+@media all and (max-width: 480px) {
+    img {display: block; margin: 0 auto;}
+  }
+
+/* #img-div{
+    text-align: center;
+    width: 33%;
+    margin:0 auto;
+}   
+#image{     
+    max-width: 100%;
+    display: block;
+    height: auto;
+} */
